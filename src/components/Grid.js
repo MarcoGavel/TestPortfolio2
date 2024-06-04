@@ -24,7 +24,8 @@ const Grid = () => {
               <h1> Here to Learn</h1>
                 <h2>My journey started at the beginning of 2024</h2>
                 <button class="button" onclick="window.location.reload()">Don't like this image?</button> 
-                <p>My first certificate --31 May '24--:</p>
+                <h2>My first certificate</h2>
+                <h2>⬇️⬇️⬇️</h2>
 <a href="https://www.udemy.com/certificate/UC-fa4f4d28-4658-4ad4-8dfb-85d9253ed0eb/" class="button mb-2 p-2" target="_blank" rel="noopener noreferrer">Certificate Link</a>
 
             </div>
