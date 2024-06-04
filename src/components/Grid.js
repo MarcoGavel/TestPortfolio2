@@ -22,8 +22,9 @@ const Grid = () => {
           <div className="cover" style={{ backgroundImage: "linear-gradient(90deg, rgba(131,58,180,0.21) 0%, rgba(253,29,29,0.16373626373626375) 50%, rgba(252,176,69,0.15604395604395604) 100%), url('https://source.unsplash.com/random')" }}>
             <div className="cover__content">
               <h1> Here to Learn</h1>
-              <h2> My journey started at the beginning of 2024 </h2>
-              <a href="#" className="button" onClick={() => window.location.reload()}>Change image</a>
+                <h2>My journey started at the beginning of 2024</h2>
+                <button class="button" onclick="window.location.reload()">Don't like this image?</button> 
+                <h2>My first certificate [31 May '24]: <a href="https://www.udemy.com/certificate/UC-fa4f4d28-4658-4ad4-8dfb-85d9253ed0eb/">Certificate Link</a></h2>
             </div>
           </div>
         </div>
