@@ -4,7 +4,10 @@ const Grid = () => {
     const [imageUrl, setImageUrl] = useState('https://source.unsplash.com/random');
 
     const changeImage = () => {
-      setImageUrl(`https://source.unsplash.com/random?${new Date().getTime()}`);
+      const newImageUrl = `https://source.unsplash.com/random?${new Date().getTime()}`;
+      setImageUrl(newImageUrl);
+
+        console.log('New Image URL:', newImageUrl);
     };
     
     return (
