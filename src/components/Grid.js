@@ -3,10 +3,8 @@ import React, { useState } from 'react';
 const Grid = () => {
     const [imageUrl, setImageUrl] = useState('https://source.unsplash.com/random');
 
-    const changeImage = () => {
-        const newImageUrl = `https://source.unsplash.com/random?${new Date().getTime()}`;
-        setImageUrl(newImageUrl);
-        console.log('New Image URL:', newImageUrl);
+    const reloadPage = () => {
+        window.location.reload();
     };
 
     return (
@@ -30,7 +28,7 @@ const Grid = () => {
                     <div className="cover__content">
                         <h1>Here to Learn</h1>
                         <h2>My journey started at the beginning of 2024</h2>
-                        <button className="button" onClick={changeImage}>Don't like this image?</button>
+                        <button className="button" onClick={reloadPage}>Don't like this image?</button>
                         <h2 style={{ marginTop: '20px' }}>My first certificate</h2>
                         <a href="https://www.udemy.com/certificate/UC-fa4f4d28-4658-4ad4-8dfb-85d9253ed0eb/" className="button mb-2 p-2" target="_blank" rel="noopener noreferrer">Bootcamp 2024</a>
                     </div>
