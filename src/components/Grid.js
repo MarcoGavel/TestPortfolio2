@@ -25,7 +25,7 @@ const Grid = () => {
         </div>
         
         <div className="col-50 p-2">
-            <div className="cover" style={{ backgroundImage: `linear-gradient(90deg, rgba(131,58,180,0.21) 0%, rgba(253,29,29,0.16373626373626375) 50%, rgba(252,176,69,0.15604395604395604) 100%), url(${imageUrl})` }}
+            <div className="cover" style={{ backgroundImage: `linear-gradient(90deg, rgba(131,58,180,0.21) 0%, rgba(253,29,29,0.16373626373626375) 50%, rgba(252,176,69,0.15604395604395604) 100%), url(${imageUrl})` }}>
             <div className="cover__content">
               <h1> Here to Learn</h1>
                 <h2>My journey started at the beginning of 2024</h2>
