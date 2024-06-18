@@ -16,11 +16,11 @@ const Grid = () => {
       <div className="col-50">
         <h2>Hello I'm Marco Gavel</h2>
         <p>
-          {/* Your introduction text here */}
+          {Hello everyone! I'm Marco, a student with a great passion for computer science, the web, and graphic design. After years in the restaurant industry, at 36, I've decided to change my career path and pursue my dream of becoming a programmer and Web Developer.}
         </p>
         <a href="https://x.com/GavelCoding" className="button mb-2 p-2" target="_blank" rel="noopener noreferrer">Check my profile on X</a>
         <p>
-          {/* More information about you */}
+          {Currently, I'm studying certified online courses to enhance my skills and improve every day. I've always believed in the importance of continuous learning and challenging oneself in new contexts, and stepping into this field at my age is evidence of that. I'll soon be building a solid portfolio.}
         </p>
       </div>
       <div className="col-50 p-2">
