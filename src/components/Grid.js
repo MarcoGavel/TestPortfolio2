@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 
 const Grid = () => {
   // Stato per gestire l'URL dell'immagine
-  const [imageUrl, setImageUrl] = useState('https://source.unsplash.com/random');
+  const [imageUrl, setImageUrl] = useState('https://picsum.photos/1920/1080');
 
   // Funzione per aggiornare l'URL dell'immagine
   const changeImage = () => {
-    setImageUrl(`https://source.unsplash.com/random?${new Date().getTime()}`);
+    setImageUrl(`https://picsum.photos/1920/1080?${new Date().getTime()}`);
   };
 
   // Funzione per ricaricare la pagina
