@@ -20,7 +20,7 @@ const Grid = () => {
         <h2>Hello I'm Marco Gavel</h2>
         <p>
           🚀 After years in the restaurant industry, at 36, I've decided to change my career path and pursue my dream of becoming a programmer and web developer. I've always been hands-on with PCs, hardware, and graphic design. Now, I aim to build a career in this field.<br />
-          <br />🎓 Currently, I'm studying certified online courses to enhance my skills and improve every day. I've always believed it's never too late to learn. I graduated in history at the age of 25, and I'm always nurturing new passions. The decision to learn web development at my age is a testament to that. Soon, I'll build a strong portfolio.
+          <br />🎓 Currently, I'm studying certified online courses to enhance my skills and improve every day. I've always believed it's never too late to learn. I graduated in history, and I'm always nurturing new passions. The decision to learn web development at my age is a testament to that. Soon, I'll build a strong portfolio.
         </p>
         <a href="https://x.com/GavelCoding" className="button mb-2 p-2" target="_blank" rel="noopener noreferrer">Check my profile on X</a>
         <p>
