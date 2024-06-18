@@ -1,6 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Grid = () => {
+
+    // Stato per gestire l'URL dell'immagine
+    const [imageUrl, setImageUrl] = useState('https://source.unsplash.com/random');
+
+    // Funzione per aggiornare l'URL dell'immagine
+    const changeImage = () => {
+      setImageUrl(`https://source.unsplash.com/random?${new Date().getTime()}`);
+    };
+
     return (
       <div className="grid p-3 mt-2">
         <div className="col-50">
@@ -19,11 +28,14 @@ const Grid = () => {
         </div>
         
         <div className="col-50 p-2">
-          <div className="cover" style={{ backgroundImage: "linear-gradient(90deg, rgba(131,58,180,0.21) 0%, rgba(253,29,29,0.16373626373626375) 50%, rgba(252,176,69,0.15604395604395604) 100%), url('https://source.unsplash.com/random')" }}>
+        <div className="cover" style={{ 
+  backgroundImage: `linear-gradient(90deg, rgba(131,58,180,0.21) 0%, rgba(253,29,29,0.16373626373626375) 50%, rgba(252,176,69,0.15604395604395604) 100%), url(${imageUrl})`
+}}>
+
             <div className="cover__content">
               <h1> Here to Learn</h1>
               <h2> My journey started at the beginning of 2024 </h2>
-              <a href="#" className="button" onClick={() => window.location.reload()}>Change image</a>
+              <a href="#" className="button" onClick={changeImage}>Change image</a>
             </div>
           </div>
         </div>
