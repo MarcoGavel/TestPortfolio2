@@ -24,7 +24,7 @@ const Grid = () => {
         </p>
         <a href="https://x.com/GavelCoding" className="button mb-2 p-2" target="_blank" rel="noopener noreferrer">Check my profile on X</a>
         <p>
-          🌍 Based in Bologna (IT) and open to relocation and remote work.<br />
+          🌍 Based in Bologna (IT) and open to remote work.<br />
           ✉️ You can reach me at MarcoGavel@gmail.com<br />
           🧠 I'm learning full-stack Web Design on Udemy, Freecodecamp, Coursera, and YouTube.<br />
           🤝 I'm open to collaborating with anyone in need of assistance from someone with no experience but with a strong willingness to learn!
