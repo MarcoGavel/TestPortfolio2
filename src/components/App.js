@@ -3,6 +3,7 @@ import Header from './Header';
 import Cover from './Cover';
 import Spacer from './Spacer';
 import Grid from './Grid';
+import ProjGrid from './ProjGrid';
 
 
 
@@ -13,6 +14,7 @@ const App = () => {
       <Cover />
       <Spacer />
       <Grid />
+      <ProjGrid />
 
     </>
   );

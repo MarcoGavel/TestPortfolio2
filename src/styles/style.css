@@ -129,3 +129,67 @@ a{color: coral}
 .text-right { text-align: right; }
 .text-left { text-align: left; }
 .img-res { width: 100%; height: auto; margin-bottom: 20px;vertical-align: middle;}
+
+/* Aggiungi questi stili al tuo CSS personalizzato */
+
+/* Stili specifici per il componente ProjGrid e SiteCard */
+
+/* Stili specifici per il componente ProjGrid e SiteCard */
+
+/* Stili specifici per il componente ProjGrid e SiteCard */
+
+.proj-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tre colonne con larghezza uguale */
+  gap: 20px; /* Spazio tra le card */
+  margin-top: 40px; /* Esempio di margine superiore */
+  padding: 0 20% 20% 20%;
+}
+
+.site-card {
+  border: 1px solid #ccc; /* Bordo sottile grigio */
+  padding: 20px; /* Padding interno */
+  text-align: center; /* Allinea al centro */
+  display: flex; /* Usa display flex per allineare contenuti orizzontalmente */
+  flex-direction: column; /* Direzione della flessione: colonna */
+}
+
+.site-card img {
+  width: 50%; /* Occupa tutta la larghezza disponibile */
+  max-width: 50%; /* Limita la larghezza massima all'immagine originale */
+  height: auto; /* Altezza automatica mantenendo l'aspetto originale */
+  cursor: pointer; /* Cambia il cursore al passaggio sopra l'immagine */
+  border-radius: 8px; /* Bordi arrotondati */
+  display: block; /* Imposta l'immagine come blocco per poter gestire il margine automatico */
+  margin: 0 auto; /* Margine automatico per centrare l'immagine orizzontalmente */
+}
+
+.site-card__info {
+  margin-top: 10px; /* Spazio superiore */
+  flex-grow: 1; /* Flessione dello spazio per occupare tutto lo spazio rimanente */
+  display: flex; /* Usa display flex per allineare contenuti */
+  flex-direction: column; /* Direzione della flessione: colonna */
+  justify-content: space-between; /* Spazio tra i contenuti interni */
+}
+
+.site-card__info h3 {
+  font-size: 1.5rem; /* Dimensione del titolo */
+  margin-bottom: 5px; /* Margine inferiore minore */
+}
+
+.site-card__info p {
+  font-size: 1rem; /* Dimensione del testo della descrizione */
+  color: #666; /* Colore del testo grigio scuro */
+  margin-bottom: 10px; /* Margine inferiore */
+}
+
+.site-card__info a {
+  display: block; /* Mostra come blocco */
+  font-size: 1rem; /* Dimensione del testo del link */
+  color: #007bff; /* Colore del link */
+  text-decoration: none; /* Rimuovi sottolineatura */
+}
+
+.site-card__info a:hover {
+  text-decoration: underline; /* Sottolinea il link al passaggio del mouse */
+}
