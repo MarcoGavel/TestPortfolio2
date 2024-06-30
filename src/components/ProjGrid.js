@@ -14,10 +14,10 @@ const ProjGrid = () => {
       link: 'https://phrase-python-simulator.vercel.app/',
     },
     {
-      title: 'proj 2',
+      title: 'Page Slider',
       imageUrl: 'https://picsum.photos/300/200', // Immagine e anteprima del sito
-      description: 'Under Development...',
-      link: 'https://gaveltestportfolio.netlify.app/',
+      description: 'A page slider in html-css and very little JS',
+      link: 'https://5pageslider.netlify.app/',
     },
     {
       title: 'proj 3',
