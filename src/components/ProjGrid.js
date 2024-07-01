@@ -3,6 +3,7 @@
 import React from 'react';
 import SiteCard from './SiteCard';
 import anteprima1 from "../imgs/anteprima1.png"
+import ant2 from "../imgs/ant2.mp4";
 
 const ProjGrid = () => {
   // Array di esempio con i dati dei siti
@@ -15,7 +16,7 @@ const ProjGrid = () => {
     },
     {
       title: 'Page Slider',
-      imageUrl: 'https://picsum.photos/300/200', // Immagine e anteprima del sito
+      videoUrl: ant2, // Immagine e anteprima del sito
       description: 'A page slider in html-css and very little JS',
       link: 'https://5pageslider.netlify.app/',
     },
@@ -34,6 +35,7 @@ const ProjGrid = () => {
           key={index}
           title={site.title}
           imageUrl={site.imageUrl}
+          videoUrl={site.videoUrl}
           description={site.description}
           link={site.link}
         />

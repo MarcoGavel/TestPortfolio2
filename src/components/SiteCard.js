@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SiteCard = ({ title, imageUrl, description, link }) => {
+const SiteCard = ({ title, imageUrl, videoUrl, description, link }) => {
   const openLink = () => {
     window.open(link, '_blank');
   };
@@ -8,7 +8,27 @@ const SiteCard = ({ title, imageUrl, description, link }) => {
   return (
     <div className="site-card">
         <h3>{title}</h3>
-      <img src={imageUrl} alt={title} onClick={openLink} />
+        <div className="media-container" onClick={openLink}>
+        {videoUrl ? (
+          <video
+            src={videoUrl}
+            className="media"
+            width="300"
+            height="200"
+            autoPlay
+            loop
+            muted
+          />
+        ) : (
+          <img
+            src={imageUrl}
+            className="media"
+            width="300"
+            height="200"
+            alt={title}
+          />
+        )}
+      </div>
       <div className="site-card__info">
         
         <p>{description}</p>
