@@ -19,7 +19,7 @@ const Header = () => {
     return (
 <header class="header">
     <div class="header__content">
-      <a href="https://x.com/GavelCoding">
+      <a>
         <img class="header__logo" src="https://pbs.twimg.com/profile_images/1780907423802310656/yZrgTvFH_400x400.jpg" alt="Logo" />
     
       </a>
@@ -28,10 +28,9 @@ const Header = () => {
       <ul class="header__menu">
         <li><a href="https://github.com/MarcoGavel" target="_blank">GitHub</a></li>
         <li><a href="https://www.linkedin.com/in/marcogavel" target="_blank">Linkedin</a></li>
-        <li><a href="mailto:marcogavel@gmail.com" target="_blank">Email</a></li>
       </ul>
       <div class="header__quick">
-        <a href="https://linktr.ee/marcogavel">My Linktree</a>
+        <a href="mailto:marcogavel@gmail.com">My Email</a>
         <div class="icon-hamburger">
           <span></span>
           <span></span>
