@@ -2,29 +2,30 @@
 
 import React from 'react';
 import SiteCard from './SiteCard';
-import anteprima1 from "../imgs/anteprima1.png"
+import anteprima1 from "../imgs/anteprima1.png";
 import ant2 from "../imgs/ant2.mp4";
+import proj3 from "../imgs/proj3.mp4";
 
 const ProjGrid = () => {
-  // Array di esempio con i dati dei siti
+
   const sites = [
     {
       title: 'Mini Proj 1',
-      imageUrl: anteprima1, // Immagine e anteprima del sito
+      imageUrl: anteprima1, 
       description: 'A little Python prj: Motivational phrases generator',
       link: 'https://phrase-python-simulator.vercel.app/',
     },
     {
       title: 'Page Slider',
-      videoUrl: ant2, // Immagine e anteprima del sito
+      videoUrl: ant2, 
       description: 'A page slider in html-css and very little JS',
       link: 'https://5pageslider.netlify.app/',
     },
     {
-      title: 'proj 3',
-      imageUrl: 'https://picsum.photos/300/200', // Immagine e anteprima del sito
-      description: 'Under Development...',
-      link: 'https://gaveltestportfolio.netlify.app/',
+      title: 'Form Step Validator',
+      videoUrl: proj3, 
+      description: 'A little work with css and JS',
+      link: 'https://form-step-validator.netlify.app/',
     },
   ];
 
