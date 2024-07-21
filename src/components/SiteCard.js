@@ -31,7 +31,7 @@ const SiteCard = ({ title, imageUrl, videoUrl, description, link }) => {
       </div>
       <div className="site-card__info">
         
-        <p>{description}</p>
+        <p dangerouslySetInnerHTML={{ __html: description }}></p>
         <a href={link} target="_blank" rel="noopener noreferrer">Visit site</a>
       </div>
     </div>
