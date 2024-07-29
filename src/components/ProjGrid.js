@@ -19,19 +19,19 @@ const ProjGrid = () => {
     {
       title: 'Page Slider',
       videoUrl: ant2, 
-      description: 'A <strong>page slider</strong> in html-css and very little JS',
+      description: 'A <strong>Page Slider</strong> in html-css and very little JS',
       link: 'https://5pageslider.netlify.app/',
     },
     {
       title: 'Form Step Validator',
       videoUrl: proj3, 
-      description: 'A <strong>Login page</strong> with css and JS, no DataBase',
+      description: 'A <strong>Login Page</strong> with css and JS, no DataBase',
       link: 'https://form-step-validator.netlify.app/',
     },
     {
       title: 'Note App',
       videoUrl: proj4, 
-      description: 'An <strong>epic</strong> Note App with Drag and Drop!',
+      description: 'A simply <strong>Note App</strong> with Drag and Drop!',
       link: 'https://noteappdragdrop.netlify.app/',
     },
   ];
