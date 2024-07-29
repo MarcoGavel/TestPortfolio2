@@ -31,7 +31,7 @@ const ProjGrid = () => {
     {
       title: 'Note App',
       videoUrl: proj4, 
-      description: 'A <strong>Note App</strong> with Drag and Drop!',
+      description: 'A simply <strong>Note App</strong> with Drag and Drop!',
       link: 'https://noteappdragdrop.netlify.app/',
     },
   ];
