@@ -11,7 +11,7 @@ const ProjGrid = () => {
 
   const sites = [
     {
-      title: 'Phrases generator',
+      title: 'Phrases Generator',
       imageUrl: anteprima1, 
       description: 'it\'s a small test in <strong>Python</strong>, all very basic',
       link: 'https://phrase-python-simulator.vercel.app/',
